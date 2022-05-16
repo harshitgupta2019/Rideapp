@@ -73,9 +73,9 @@ const Navbar = () => {
               <label for="state" >State</label>
               <select name="state" id="state" onChange={(e)=>setStat(e.target.value)}>
 
-              {/* {ride.map((option) => (
+              {{ride.map((option) => (
               <option value={option.state}>{option.state}</option>
-            ))} */}
+            ))}}
               </select>
                 </div>
               </div>
@@ -83,9 +83,9 @@ const Navbar = () => {
                   <div className="pop22">
                   <label for="city">City</label>
                   <select name="city" id="city" onChange={(e)=>setCty(e.target.value)}>
-                  {/* {ride.map((option) => (
+                  {{ride.map((option) => (
               <option value={option.city}>{option.city}</option>
-            ))} */}
+            ))}}
                 
               </select>
               
