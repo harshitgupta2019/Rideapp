@@ -1,0 +1,22 @@
+.container{
+    background-color: #383636;
+    height:auto;
+    width:1536px;
+    display: flex;
+    flex-direction: column;
+    /* overflow-x: none; */
+    /* position:fixed;  */
+}
+.card{
+    margin:auto;
+    margin-bottom: 10px;
+}
+.filter img{
+    position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 25%;
+bottom: 25%;
+
+background: rgba(255, 255, 255, 0.8);
+}

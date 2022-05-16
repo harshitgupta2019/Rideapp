@@ -1,0 +1,283 @@
+/* .main-nav{
+    min-height: 50px;
+    width:100%;
+    margin:0 auto;
+    border-top: solid 3px #ef8236;
+    box-shadow: 0px 1px 5px #00000033;
+    position: fixed;
+    z-index: 5;
+    top:0%;
+    left:0%;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+*{
+    margin:0;
+    padding:0;
+}
+.heading{
+    position: absolute;
+width: 114px;
+height: 43px;
+left: 43px;
+top: 21px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+.navbar{
+    position: absolute;
+   width: 1536px;
+   height: 84px;
+/* left: 0px; */
+/* top: 0px; */
+display: flex;
+align-items: center;
+    justify-content: space-between;
+
+background: #101010;
+    justify-content: space-between;
+}
+.componentbar{
+    width:1536px
+}
+.name p{
+    position: absolute;
+width: 121px;
+height: 24px;
+left: 1133px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+.name img{
+    position: absolute;
+width: 44px;
+height: 44px;
+left: 1279px;
+top: 20.28px;
+
+/* background: url(Image.png); */
+border-radius: 22px;
+transform: rotate(-0.36deg);
+}
+.componentbar{
+    background-color:#383636;
+    height:160px;
+}
+.nav-links1{
+    position: absolute;
+width: 118px;
+height: 22px;
+left: 43px;
+top: 113px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color:#D0CBCB ;
+
+}
+
+.nav-links2{
+    position: absolute;
+width: 164px;
+height: 22px;
+left: 205px;
+top: 113px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #D0CBCB;
+
+}
+.nav-links3{
+    position: absolute;
+width: 114px;
+height: 22px;
+left: 413px;
+top: 113px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+
+color: #D0CBCB;
+}
+.active{
+  color:  #FFFFFF;
+}
+.btn{
+    position: absolute;
+width: 39px;
+height: 19px;
+left: 1271px;
+top: 117px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 19px;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+background-color: #383636;
+border: none;
+cursor: pointer;
+
+}
+.componentbar img{
+    position: absolute;
+left: 81.5%;
+right: 12.5%;
+top: 17.5%;
+cursor:pointer
+/* bottom: 25%; */
+/* position: sticky; */
+/* background: rgba(255, 255, 255, 0.8); */
+}
+
+.pop-up{
+    display:block;
+    box-sizing: border-box;
+    right: 5px;
+    top: 170px;
+position: absolute;
+width: 200px;
+height: 190px;
+
+background: #131313;
+border-radius: 15px;
+}
+.pop-up p{
+    position: absolute;
+width: 49px;
+height: 24px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+left: 20px;
+    top: 10px;
+color: #A5A5A5;
+
+}
+.pop-up hr{
+    position: absolute;
+width: 158px;
+height: 0px;
+top: 43px;
+    left: 20px;
+border: 1px solid #CBCBCB;
+}
+.pop1{
+    position: absolute;
+width: 168.45px;
+height: 37.5px;
+top: 70px;
+    left: 20px;
+background: #232323;
+border-radius: 4.68775px;
+}
+.pop11{
+    position: absolute;
+width: 144px;
+height: 22px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+top: 6px;
+    padding: 2px;
+color: #FFFFFF;
+}
+
+.pop2{
+    position: absolute;
+width: 168.45px;
+height: 37.5px;
+
+background: #232323;
+border-radius: 4.68775px;
+top: 120px;
+    left: 20px;
+}
+.pop22{
+    position: absolute;
+width: 144px;
+height: 22px;
+top: 6px;
+    padding: 2px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+select{
+    position: absolute;
+width: 12.19px;
+height: 12.19px;
+margin:10px;
+left:130px;
+padding: 8px;
+    top: -7px;
+background: #A5A5A5;
+/* transform: rotate(180deg); */
+}
+label{
+    left:0px;
+}
+
+
+
+
+
+
+
+
